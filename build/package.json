@@ -18,6 +18,10 @@
 
     "grunt-shell": "~1.1.1",
     "load-grunt-config": "~0.14.0",
-    "grunt-assemble-less": "~0.8.1"
+    "grunt-assemble-less": "~0.8.1",
+    
+    "grunt-open": "~0.2.1",
+    "grunt-express": "~1.0.0",
+    "grunt-contrib-watch": "~0.5.1"
   }
 }

@@ -1,5 +1,8 @@
 {
   "default":    [ ],
+  "bootstrap":  [
+                  "shell:bootstrap"
+                ],
   "debug":      [
                   "clean",
                   "less:debug",
@@ -14,6 +17,7 @@
                   "copy:release",
                   "uglify",
                   "cssmin",
-                  "copy:finalize"
+                  "copy:finalize",
+                  "clean:temp"
                 ]
 }

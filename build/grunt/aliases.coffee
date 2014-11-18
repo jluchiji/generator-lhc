@@ -24,5 +24,5 @@ module.exports = (grunt, options) ->
   'live-dev':   [
                   'express',
                   'open',
-                  'express-keepalive'
+                  'watch'
                 ]

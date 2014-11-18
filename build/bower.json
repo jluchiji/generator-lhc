@@ -1,16 +1,20 @@
 {
-  "name":       "lhc-boilerplate",
-  "version":    "1.0.0",
-  "authors":    ["Denis Luchkin-Zhou <wyvernzora@gmail.com>"],
+  "name": "lhc-boilerplate",
+  "version": "1.0.0",
+  "authors": [
+    "Denis Luchkin-Zhou <wyvernzora@gmail.com>"
+  ],
   "description": "LESS, HTML5 & CoffeeScript website template.",
-  "license":    "MIT",
-  "private":    true,
-  "ignore":     [
-                  "**/.*",
-                  "node_modules",
-                  "bower_components",
-                  "bower_modules",
-                  "test",
-                  "tests"
-                ]
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
 }

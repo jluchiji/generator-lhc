@@ -3,15 +3,18 @@
   "bootstrap":  [
                   "shell:bootstrap"
                 ],
+  "update":     [
+                  "shell:update"
+                ],
   "debug":      [
-                  "clean",
+                  "clean:dist",
                   "less:debug",
                   "coffee",
                   "copy",
                   "clean:temp"
                 ],
   "release":    [
-                  "clean",
+                  "clean:dist",
                   "less:release",
                   "coffee",
                   "copy:release",

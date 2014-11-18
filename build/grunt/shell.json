@@ -1,5 +1,11 @@
 {
+  "options": {
+    "stdout": false
+  },
   "bootstrap": {
     "command": "cd build && bower install"
+  },
+  "update": {
+    "command": "cd build && npm update && bower update"
   }
 }

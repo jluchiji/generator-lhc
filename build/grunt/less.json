@@ -1,0 +1,27 @@
+{
+  "debug": {
+    "options": {
+      "paths":    [ "src/styles" ]
+    },
+    "files": [{
+      "expand":   true,
+      "cwd":      "src/styles",
+      "src":      [ "**/*.less"  ],
+      "dest":     "dist/tmp/styles",
+      "ext":      ".css"
+    }]
+  },
+  "release": {
+    "options": {
+      "paths":    [ "src/styles" ],
+      "compress": true
+    },
+    "files": [{
+      "expand":   true,
+      "cwd":      "src/styles",
+      "src":      [ "**/*.less"  ],
+      "dest":     "dist/tmp/styles",
+      "ext":      ".min.css"
+    }]
+  }
+}

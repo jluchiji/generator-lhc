@@ -1,0 +1,19 @@
+{
+  "default":    [ ],
+  "debug":      [
+                  "clean",
+                  "less:debug",
+                  "coffee",
+                  "copy",
+                  "clean:temp"
+                ],
+  "release":    [
+                  "clean",
+                  "less:release",
+                  "coffee",
+                  "copy:release",
+                  "uglify",
+                  "cssmin",
+                  "copy:finalize"
+                ]
+}

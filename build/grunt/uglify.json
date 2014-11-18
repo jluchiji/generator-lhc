@@ -1,0 +1,11 @@
+{
+  "release": {
+    "files": [{
+      "expand":   true,
+      "cwd":      "dist/tmp/scripts",
+      "src":      [ "**/*.js", "!**/*.min.js" ],
+      "dist":     "dist/tmp/scripts",
+      "ext":      ".min.js"
+    }]
+  }
+}

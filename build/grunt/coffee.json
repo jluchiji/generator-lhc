@@ -1,0 +1,11 @@
+{
+  "all": {
+    "files": [{
+      "expand":   true,
+      "cwd":      "src/scripts",
+      "src":      [ "**/*.coffee" ],
+      "dest":     "dist/tmp/scripts",
+      "ext":      ".js"
+    }]
+  }
+}

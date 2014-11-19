@@ -30,6 +30,24 @@ module.exports = (grunt, options) ->
       dest:       'dist/tmp/styles'
       ext:        '.css'
     }]
+
+  # ------------------------------------------------------------------------- #
+  # Copies bower packages. Modify as needed.                                  #
+  # ------------------------------------------------------------------------- #
+  'bower':
+    files: [{
+      expand:     yes
+      cwd:        'build'
+      src:        ['bower_modules/**/*']
+      dest:       'dist'
+    },
+    {
+      expand:     yes
+      cwd:        'build'
+      src:        ['.bowerrc', 'bower.json']
+      dest:       'dist'
+    }]
+
   'finalize':
     files: [{
       expand:     yes

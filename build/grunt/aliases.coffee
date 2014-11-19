@@ -9,6 +9,7 @@ module.exports = (grunt, options) ->
                   'less',
                   'coffee',
                   'copy',
+                  'wiredep',
                   'clean:temp'
                 ]
   'release':    [
@@ -19,6 +20,8 @@ module.exports = (grunt, options) ->
                   'uglify',
                   'cssmin',
                   'copy:finalize',
+                  'copy:bower',
+                  'wiredep',
                   'clean:temp'
                 ]
   'live-dev':   [
